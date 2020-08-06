@@ -1,5 +1,5 @@
 const matrix = require("./matrix.js");
-
+/*
 function decrypt(message) {
   const transposedMatrix = matrix(message);
   const originalMatrix = [];
@@ -13,6 +13,6 @@ function decrypt(message) {
   }
   decryptedMessage = originalMatrix.flat().join("");
   return decryptedMessage;
-}
+}*/
 
 module.exports = decrypt;
